@@ -5,7 +5,7 @@ public class Calculator
     // and returns the resulting value    
     public int Add(int a, int b)
     {
-        return a + b + 1;
+        return a + b;
     }
 
     // subtracts the second number from the first
@@ -17,9 +17,9 @@ public class Calculator
 
     public int MyCustomCalculation(int a, int b)
     {
-        int x = a * 101;
-        int y = b * 201;
-        if(x + y > 1000) 
+        int x = a * 10;
+        int y = b * 20;
+        if(x + y > 100) 
         {
             Console.WriteLine("this will require a manager approval");
         }
